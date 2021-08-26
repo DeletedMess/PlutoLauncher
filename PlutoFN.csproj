@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="featured-fortnite-black-hole-guide.jpg" />
+    <None Remove="fortnite-zero-point-1247302-1280x0.jpeg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AdonisUI" Version="1.17.0" />
+    <PackageReference Include="Microsoft.WindowsAPICodePack-Core" Version="1.1.0.2" />
+    <PackageReference Include="Microsoft.WindowsAPICodePack-Shell" Version="1.1.0" />
+    <PackageReference Include="WindowsAPICodePack" Version="1.1.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="featured-fortnite-black-hole-guide.jpg" />
+    <Resource Include="fortnite-zero-point-1247302-1280x0.jpeg" />
+  </ItemGroup>
+
+</Project>

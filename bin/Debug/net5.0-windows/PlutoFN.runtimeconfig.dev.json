@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\Vorty\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Vorty\\.nuget\\packages"
+    ]
+  }
+}
